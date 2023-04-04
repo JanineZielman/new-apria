@@ -27,7 +27,23 @@ export function PostComponent({ post }: PostProps) {
       </Head>
 
 
-      <main className="content content-single">
+      <main className="article">
+        <div className='info-bar'>
+          <div className='date'>
+            <div className='field'>DATE</div>
+            <div className='data'>{post.date}</div>
+          </div>
+          <div className='date'>
+            <div className='field'>Published in</div>
+            <div className='data'>{post.date}</div>
+          </div>
+          <div className='date'>
+            <div className='field'>DOI</div>
+            <div className='data'>{post.date}</div>
+          </div>
+        </div>
+        <h1 className='headline'>{post?.title()}</h1>
+        {/* <img src={post.featuredImage?.node.mediaItemUrl}/> */}
         <div className="wrap">
           <div dangerouslySetInnerHTML={{ __html: post?.content() ?? '' }} />
         </div>

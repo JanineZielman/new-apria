@@ -6,6 +6,10 @@ a{
   text-decoration: none;
 }
 
+p a, li a{
+  text-decoration: underline;
+}
+
 .headline{
   font-size: $headline;
   font-family: 'Oswald', sans-serif;
@@ -15,7 +19,7 @@ a{
   font-size: $subtitle;
   font-family: 'Oswald', sans-serif;
   line-height: 1;
-  font-weight: 100;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -23,7 +27,7 @@ a{
   font-size: $subtitle;
   font-family: 'Oswald', sans-serif;
   line-height: 1;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .large-body{
@@ -65,6 +69,8 @@ body{
   background-color: $white;
   color: $black;
   font-family: "shift", serif;
+  font-size: $body;
+  line-height: 1.5;
 }
 
 h1, h2{

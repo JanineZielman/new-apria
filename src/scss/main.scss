@@ -75,3 +75,44 @@ svg g path{
     text-align: center;
   }
 }
+
+.article{
+  .headline{
+    max-width: 900px;
+    margin: auto;
+    padding-left: 150px;
+    box-sizing: border-box;
+    margin-bottom: 48px;
+    line-height: 1;
+  }
+  .wrap{
+    width: 900px;
+    margin: auto;
+    img, figure{
+      width: 100%!important;
+      height: auto!important;
+      margin: auto 0;
+    }
+  }
+}
+
+.info-bar{
+  width: 900px;
+  margin: 24px auto;
+  font-size: $captions;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  box-sizing: border-box;
+  .date{
+    width: 30%;
+    .field{
+      text-transform: capitalize;
+      border-bottom: 1px solid $black;
+      opacity: 0.8;
+    }
+    .data{
+      margin-top: 5px;
+    }
+  }
+}
