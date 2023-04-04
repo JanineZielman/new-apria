@@ -1,16 +1,6 @@
 {
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html",
-  "/api/faust/[[...route]]": "pages/api/faust/[[...route]].js",
   "/_app": "pages/_app.js",
-  "/preview": "pages/preview.html",
   "/_error": "pages/_error.js",
-  "/custom-page": "pages/custom-page.js",
-  "/category/[categorySlug]/[paginationTerm]/[categoryCursor]": "pages/category/[categorySlug]/[paginationTerm]/[categoryCursor].js",
-  "/[...pageUri]": "pages/[...pageUri].js",
-  "/posts": "pages/posts.js",
-  "/posts/[postSlug]/[postCursor]": "pages/posts/[postSlug]/[postCursor].js",
-  "/posts/[postSlug]": "pages/posts/[postSlug].js",
-  "/category/[categorySlug]": "pages/category/[categorySlug].js",
+  "/_document": "pages/_document.js",
   "/": "pages/index.js"
 }

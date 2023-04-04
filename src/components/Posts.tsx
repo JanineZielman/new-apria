@@ -25,6 +25,7 @@ function Posts({
               <div>
                 <Link href={`/posts/${post.slug}`}>
                   <a>
+                    {post.categories}
                     <img src={post.featuredImage?.node.mediaItemUrl}/>
                     <h1 className='title'>{post.title()}</h1>
                   </a>

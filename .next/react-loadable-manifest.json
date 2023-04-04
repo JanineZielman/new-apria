@@ -1,20 +1,20 @@
 {
   "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/cookie.js": {
-    "id": 6190,
+    "id": "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/cookie.js",
     "files": [
-      "static/chunks/190.e3d912b2516f9d2e.js"
+      "static/chunks/node_modules_faustjs_core_dist_mjs_server_auth_cookie_js.js"
     ]
   },
   "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/token.js": {
-    "id": 471,
+    "id": "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/token.js",
     "files": [
-      "static/chunks/471.80c222944df883ba.js"
+      "static/chunks/node_modules_faustjs_core_dist_mjs_server_auth_token_js.js"
     ]
   },
   "../../node_modules/@gqty/react/ssr/ssr.mjs -> react-ssr-prepass": {
-    "id": 3946,
+    "id": "../../node_modules/@gqty/react/ssr/ssr.mjs -> react-ssr-prepass",
     "files": [
-      "static/chunks/946.611f985e9d12ed25.js"
+      "static/chunks/node_modules_react-ssr-prepass_dist_react-ssr-prepass_es_js.js"
     ]
   }
 }
