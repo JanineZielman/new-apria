@@ -20,6 +20,7 @@
       text-transform: none; 
       line-height: 1.2;
       font-size: $large-body;
+      font-weight: 300;
     }
   }
 }
@@ -62,15 +63,18 @@ svg g path{
   margin-top: 48px;
   .post-item{
     width: 30vw;
-    border-top: 1px solid $black;
-    border-bottom: 1px solid $black;
+    border-top: 2px solid $black;
+    // border-bottom: 1px solid $black;
     padding: 14px 0;
     height: 100%;
+    display: block;
     img{
       height: 100%;
       width: auto;
       max-width: 80%;
       max-height: 500px;
+      min-height: 250px;
+      min-width: 20vw;
     }
     text-align: center;
   }
@@ -83,7 +87,6 @@ svg g path{
     padding-left: 150px;
     box-sizing: border-box;
     margin-bottom: 48px;
-    line-height: 1;
   }
   .wrap{
     width: 900px;
