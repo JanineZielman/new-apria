@@ -1,0 +1,57 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,500;1,500&family=Oswald:wght@500&display=swap');
+
+a{
+  color: $black;
+  text-decoration: none;
+}
+
+.headline{
+  font-size: $headline;
+  font-family: 'Oswald', sans-serif;
+}
+
+.title{
+  font-size: $subtitle;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.subtitle{
+  font-size: $subtitle;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.large-body{
+  font-size: $large-body;
+  font-family: "shift", serif;
+}
+
+.body{
+  font-size: $body;
+  font-family: "shift", serif;
+}
+
+.captions{
+  font-size: $captions;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.button{
+  font-size: $button;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body{
+  background-color: $white;
+  color: $black;
+  font-family: "shift", serif;
+}
+
+h1, h2{
+  margin: 10px 0 0 0;
+  padding: 0;
+}

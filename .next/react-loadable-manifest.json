@@ -1,0 +1,20 @@
+{
+  "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/cookie.js": {
+    "id": "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/cookie.js",
+    "files": [
+      "static/chunks/node_modules_faustjs_core_dist_mjs_server_auth_cookie_js.js"
+    ]
+  },
+  "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/token.js": {
+    "id": "../../node_modules/@faustjs/core/dist/mjs/gqty/index.js -> ../server/auth/token.js",
+    "files": [
+      "static/chunks/node_modules_faustjs_core_dist_mjs_server_auth_token_js.js"
+    ]
+  },
+  "../../node_modules/@gqty/react/ssr/ssr.mjs -> react-ssr-prepass": {
+    "id": "../../node_modules/@gqty/react/ssr/ssr.mjs -> react-ssr-prepass",
+    "files": [
+      "static/chunks/node_modules_react-ssr-prepass_dist_react-ssr-prepass_es_js.js"
+    ]
+  }
+}

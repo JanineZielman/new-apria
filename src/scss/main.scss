@@ -1,0 +1,21 @@
+// CSS for use on every page. Added with normalize.css in pages/_app.tsx.
+
+@import "variables";
+@import "typography";
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .post-item{
+    width: 30vw;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    padding: 14px 0;
+    img{
+      width: 100%;
+      height: auto;
+    }
+    text-align: center;
+  }
+}
