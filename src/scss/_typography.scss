@@ -16,6 +16,7 @@ a{
   font-family: 'Oswald', sans-serif;
   line-height: 1;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .subtitle{
@@ -38,6 +39,21 @@ a{
 .captions{
   font-size: $captions;
   font-family: 'IBM Plex Mono', monospace;
+}
+
+.category{
+  font-size: $body;
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: uppercase;
+  width: fit-content;
+  background-color: $black;
+  padding: 5px 15px;
+  color: $white;
+  border-radius: 25px;
+  margin: 0 auto 10px auto;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  font-weight: 300;
 }
 
 .button{

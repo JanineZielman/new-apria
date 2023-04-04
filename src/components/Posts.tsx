@@ -17,22 +17,23 @@ function Posts({
     // eslint-disable-next-line react/jsx-props-no-spreading
     <section {...(id && { id })}>
       <div className="grid">
-          {posts.map((post) => (
-            <div
-              className="post-item"
-              key={post.id ?? ''}
-              id={`post-${post.id}`}>
-              <div>
+          {posts.map((post) => {
+            return(
+              <div
+                className="post-item"
+                key={post.id ?? ''}
+                id={`post-${post.id}`}
+              >
                 <Link href={`/posts/${post.slug}`}>
                   <a>
-                    {post.categories}
+                    <div className='category'>{post.categories().nodes[0].name}</div>
                     <img src={post.featuredImage?.node.mediaItemUrl}/>
                     <h1 className='title'>{post.title()}</h1>
                   </a>
                 </Link>
               </div>
-            </div>
-          ))}
+            )
+          })}
           {posts && posts?.length < 1 && <p>No posts found.</p>}
       </div>
     </section>

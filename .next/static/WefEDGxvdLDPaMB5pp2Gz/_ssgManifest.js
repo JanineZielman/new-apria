@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F","\u002F[...pageUri]","\u002Fcategory\u002F[categorySlug]","\u002Fcategory\u002F[categorySlug]\u002F[paginationTerm]\u002F[categoryCursor]","\u002Fcustom-page","\u002Fposts","\u002Fposts\u002F[postSlug]","\u002Fposts\u002F[postSlug]\u002F[postCursor]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

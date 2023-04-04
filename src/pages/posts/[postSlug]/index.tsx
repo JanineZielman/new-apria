@@ -12,6 +12,7 @@ export function PostComponent({ post }: PostProps) {
   const { useQuery } = client;
   const generalSettings = useQuery().generalSettings;
 
+
   return (
     <>
       <Header
