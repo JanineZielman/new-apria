@@ -48,7 +48,7 @@ p a, li a{
 }
 
 .category{
-  font-size: $body;
+  font-size: 14px;
   font-family: 'IBM Plex Mono', monospace;
   text-transform: uppercase;
   width: fit-content;
@@ -59,7 +59,7 @@ p a, li a{
   margin: 0 auto 10px auto;
   line-height: 1.2;
   letter-spacing: 0px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .button{
@@ -82,4 +82,11 @@ h1, h2{
 
 h1{
   font-family: 'Oswald', sans-serif;
+}
+
+figcaption{
+  margin-left: 100px;
+  width: 70%;
+  font-size: $captions;
+  margin-bottom: 24px;
 }
