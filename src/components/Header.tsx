@@ -17,9 +17,16 @@ function Header({
   }).nodes;
 
   return (
-    <header>
-      
-    </header>
+    <>
+      <header>
+        
+      </header>
+      <div className='background-animation'>
+        <div className="bg-blob1"></div>
+        <div className="bg-blob2"></div>
+        <div className="bg-blob3"></div>
+      </div>
+    </>
   );
 }
 
